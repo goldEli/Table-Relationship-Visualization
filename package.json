@@ -1,12 +1,20 @@
 {
   "name": "table_relationship",
   "version": "1.0.0",
-  "description": "<!--  * @Author: miao yu  * @Date: 2020-03-03 17:35:38  * @LastEditors: miao yu  * @LastEditTime: 2020-03-03 17:36:26  * @Description:   --> # Table Relationship Visualization",
-  "main": "konva.js",
+  "description": "table relationship visualization",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "konva": "^4.1.6"
+  }
 }
