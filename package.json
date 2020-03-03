@@ -1,0 +1,12 @@
+{
+  "name": "table_relationship",
+  "version": "1.0.0",
+  "description": "<!--  * @Author: miao yu  * @Date: 2020-03-03 17:35:38  * @LastEditors: miao yu  * @LastEditTime: 2020-03-03 17:36:26  * @Description:   --> # Table Relationship Visualization",
+  "main": "konva.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
